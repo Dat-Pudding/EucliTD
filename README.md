@@ -6,27 +6,27 @@ Simple tower defense game with a focus on replaying and big upgrade trees to nur
 
 ## What's new?
 `Update pre_alpha-v0.0.1d`
-[x] - Towers exist 
-[x] - Targets exist 
-[x] - Towers track targets 
+- [x] Towers exist 
+- [x] Targets exist 
+- [x] Towers track targets 
 
 ## What's next?
 `v0.0.2`
- [ ] - Paths on maps exist 
- [ ] - Targets track paths 
- [ ] - Towers shoot at tracked targets 
- [ ] - Base has and can lose health 
+ - [ ] Paths on maps exist 
+ - [ ] Targets track paths 
+ - [ ] Towers shoot at tracked targets 
+ - [ ] Base has and can lose health 
 
 `v0.0.3`
- [ ] - Targets have and can lose health 
- [ ] - Targets can die 
- [ ] - Player can die 
+ - [ ] Targets have and can lose health 
+ - [ ] Targets can die 
+ - [ ] Player can die 
 
 `v0.0.4`
- [ ] - Boss targets exist
- [ ] - Towers can be upgraded
- [ ] - Speed multiplier exists
- [ ] - Speed multiplier adjusts game speed
+ - [ ] Boss targets exist
+ - [ ] Towers can be upgraded
+ - [ ] Speed multiplier exists
+ - [ ] Speed multiplier adjusts game speed
 
 ## Setup
 I try to keep the whole installation as simple as possible.
