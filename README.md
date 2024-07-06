@@ -38,7 +38,7 @@ Not a whole lot
 No files to install yet. you'd just get a blue window with the UI overlay showing a tiny `Development Build` in the lower right corner.
 
 ### Running the game
-Just double-click the (yet) non-existent `*.exe*` file
+Just double-click the (yet) non-existent `*.exe` file
 
 ## Contributing
 As of right now contributions are neither needed nor wanted. This is due to the extremely early stage of development.
