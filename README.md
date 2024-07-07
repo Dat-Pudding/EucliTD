@@ -14,7 +14,8 @@ Simple tower defense game with a focus on replaying and big upgrade trees to nur
 `v0.0.2`
  - [ ] Paths on maps exist 
  - [ ] Targets track paths 
- - [ ] Towers shoot at tracked targets 
+ - [x] Towers shoot at tracked targets 
+ - [ ] Player base exists
  - [ ] Base has and can lose health 
 
 `v0.0.3`
