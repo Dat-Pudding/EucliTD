@@ -30,13 +30,13 @@ Simple tower defense game with a focus on replaying and big upgrade trees to nur
  - [ ] Speed multiplier adjusts game speed
 
 ## Setup
-I try to keep the whole installation as simple as possible.
+I try to keep the whole installation as simple as possible. Therefore I will try to condense the installation down to executing an installer.
 
 ### Hardware Requirements
 Not a whole lot
 
 ### Installation
-No files to install yet. you'd just get a blue window with the UI overlay showing a tiny `Development Build` in the lower right corner.
+No files to install yet. 
 
 ### Running the game
 Just double-click the (yet) non-existent `*.exe` file
@@ -45,7 +45,7 @@ Just double-click the (yet) non-existent `*.exe` file
 As of right now contributions are neither needed nor wanted. This is due to the extremely early stage of development.
 
 ## Thanks
-There's no one to thank
+There's no one to thank (yet)
 
 ## Special Thanks
 I wanna especially thank my partner for reminding me that I have to get some nutrition every now and then
