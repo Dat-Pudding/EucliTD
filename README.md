@@ -12,6 +12,7 @@ Simple tower defense game with a focus on replaying and big upgrade trees to nur
 
 ## What's next?
 `v0.0.2`
+ - [ ] rudimentary tileset and sprites exist
  - [ ] Paths on maps exist 
  - [ ] Targets track paths 
  - [x] Towers shoot at tracked targets 
