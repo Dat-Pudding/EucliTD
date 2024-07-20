@@ -55,7 +55,7 @@ public class Tower : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.name == "TestEnemy")
+        if (other.CompareTag("Enemy"))
         {
             currentTarget = other.transform;
             targetPos = new Vector2(currentTarget.position.x, currentTarget.position.y);

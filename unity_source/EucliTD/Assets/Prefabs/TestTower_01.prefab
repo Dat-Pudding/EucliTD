@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3258178107844457441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7645090456304813394}
+  - component: {fileID: 3177939367781088157}
+  - component: {fileID: 5975273804107226439}
+  m_Layer: 0
+  m_Name: TestTower_01
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7645090456304813394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258178107844457441}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8168509259969273005}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &3177939367781088157
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258178107844457441}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 3
+--- !u!114 &5975273804107226439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258178107844457441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf3508daaf92ef24ab778ce40018588b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerName: 
+  towerId: 0
+  towerSprite: {fileID: 0}
+  towerPrefab: {fileID: 0}
+  towerFirePoint: {fileID: 1212650158287428927}
+  towerProjectile: {fileID: 0}
+  attackRangeCollider: {fileID: 3177939367781088157}
+  currentTarget: {fileID: 0}
+  towerPos: {x: 0, y: 0}
+  targetPos: {x: 0, y: 0}
+  towerBaseData: {fileID: 11400000, guid: b7a2caebe1065e2418e8ecd7b8b39831, type: 2}
+  baseDamage: 0
+  damage: 0
+  damageMultiplier: 0
+  reloadSpeed: 0
+  reloadSpeedMultiplier: 0
+  firingCooldown: 0
+  timeStamp: 0
+--- !u!1001 &4641555669345548564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7645090456304813394}
+    m_Modifications:
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067095193409944501, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+      propertyPath: m_Name
+      value: TowerSprite
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+--- !u!4 &1212650158287428927 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5818136898421498923, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+  m_PrefabInstance: {fileID: 4641555669345548564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8168509259969273005 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3546093975343441337, guid: d5e91461030efdb43b8f01b4a1f5ace8, type: 3}
+  m_PrefabInstance: {fileID: 4641555669345548564}
+  m_PrefabAsset: {fileID: 0}
