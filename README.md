@@ -12,11 +12,11 @@ Simple tower defense game with a focus on replaying and big upgrade trees to nur
 
 ## What's next?
 `v0.0.2`
- - [ ] rudimentary tileset and sprites exist
- - [ ] Paths on maps exist 
- - [ ] Targets track paths 
+ - [x] rudimentary tileset and sprites exist
+ - [x] Paths on maps exist 
+ - [x] Targets track paths 
  - [x] Towers shoot at tracked targets 
- - [ ] Player base exists
+ - [x] Player base exists
  - [ ] Base has and can lose health 
 
 `v0.0.3`
@@ -49,5 +49,5 @@ As of right now contributions are neither needed nor wanted. This is due to the 
 There's no one to thank (yet)
 
 ## Special Thanks
-I wanna especially thank my partner for reminding me that I have to get some nutrition every now and then
+I wanna especially thank my partner for reminding me that I have to get some nutrition every now and then.
 
